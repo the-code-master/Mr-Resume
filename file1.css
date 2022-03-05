@@ -1,0 +1,857 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    display: flex;
+    width:100%;
+    background-color: #282320;
+    justify-content: space-around;
+    padding: 30px 0px;
+    position: fixed;
+    top:0px;
+    z-index: 8;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar a:hover{
+     text-decoration: underline;
+    }
+    
+.navbar li{
+        display: inline-block;
+    }
+.navbar li a{
+font: 16px "Lato";
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 0.5 px;
+    padding-right: 30px;
+    text-decoration: none;
+    
+}
+
+.navbar ul li a i {
+    padding-right: 10px;
+}
+
+.intro-section{
+    background: url(http://templates.seekviral.com/resume/images/parallax04.jpg) ;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height: 800px;
+    padding: 211px 0px 0px 0px;
+    
+    
+}
+.blacky::before{
+    background: none repeat scroll 0 0 #000000;
+    content: "";
+    height:653px;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 148px;
+    width: 100%;
+    z-index: 0;
+}
+.profile-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:200px;
+    width: auto;
+    position: relative;
+    
+    
+}
+.profile-pic img{
+    border-radius: 50%;
+    border:4px solid white;
+    width:200px;
+    
+}
+.name{
+    padding-top: 50px;
+    color: #FFF;
+    font: 45px "Intro";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+}
+.name,.Bio-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.Bio-data{
+    padding: 10px 0px 30px 0px;
+    font: 28px "Noticia Text";
+    color: #e65650;
+    letter-spacing: 1px;
+}
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    width:50px;
+    position: fixed;
+    top:220px;
+    background-color: tomato;
+    border-radius: 4px;
+    z-index: 1;
+       
+
+}
+.social-icons a{
+    color: white;
+    padding:11px 9px;
+    /* border-radius: 50%; */
+    justify-content: center;
+    
+}
+.fab{
+    font-size: 30px;
+}
+.social-icons a:hover{
+    box-shadow: 0px 0px 3px 4px grey;
+    background-color: rgb(238, 195, 195);
+}
+.feature-section{
+    display: flex;
+    flex-direction: row;
+    height:400px;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    /* z-index: 0; */
+    
+}
+/* feature section */
+.feature-content{
+    height:250px;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 32px;
+}
+.feature-content i{
+    font-size: 66px;
+}
+.feature-content p{
+    font: 15px/25px "Lato";
+    color: #5c5b5b;
+    letter-spacing: 0.4px;
+}
+.feature-content span{
+    font: bold 19px "lato";
+    color: #303030;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
+.personal-info{
+    background-image: url(images/personal-info.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items:center;
+    position: relative;
+}
+.personal-info::before{
+    background: none repeat scroll 0 0 #000000;
+    content: "";
+    height:90vh;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.personal-info1{
+    position: relative;
+    background-color: white;
+    margin-right: 241px;
+    height:78vh;
+    width:566px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0px 55px;
+}
+.title-info h2{
+    font: bold 24px "Intro";
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display:inline-block;
+}
+.personal-info span{
+    color: #4f4f4f;
+    font: 18px "Noticia Text";
+    letter-spacing: 2.4px;
+    width: 100%;
+    margin:2px 0px;
+    line-height: 2rem;
+}
+.title-info{
+    margin:22px 0px;
+}
+.personal-info1 i{
+    font-size: 1.5rem;
+    padding-right: 30px;
+}
+.people-interest{
+    background-image: url(http://templates.seekviral.com/resume/images/parallax07.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height: 100vh;
+    display: inline-flex;
+     flex-direction: row;
+     align-items: center;
+}
+.comment-heading{
+    width:400px;
+    height: 50px;
+    background-color: rgb(243, 109, 85);
+    color: whitesmoke;
+    text-align: center;
+    font: 24px "Intro";
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 9px;
+}
+.comment-details{
+    width:500px;
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+.comment-details p{
+    font: 15px/30px "Lato";
+    color: #5a5a5a;
+    letter-spacing: 0.4px;
+}
+.people-comment{
+    margin-left:255px;
+    ;
+}
+.myskill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(http://templates.seekviral.com/resume/images/parallax02.jpg);
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.myskill::before{
+    background: none repeat scroll 0 0 #000000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+}
+.courses-details{
+    position: relative;
+    color: white;
+    border-radius: 50%;
+    
+}
+.courses-details span{
+    font-family: Lato;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    margin-top: 16px;
+    width: 100%;
+    text-transform: uppercase;
+
+}
+.courses-details img{
+    height:130px;
+    width: 165px;
+    background-color: white;
+    margin-bottom: 9px;
+    padding:2px 2px;
+}
+.skill-title{
+    color: white;
+    position: relative;
+    top: -91px;
+    width:400px;
+    text-align: center;
+    line-height: 3.5rem;
+}
+.skill-title h2{
+    
+    font: 42px "Intro";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.skill-title h4{
+    font: 20px "Lato";
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.courses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+
+}
+.skill-title h2::after{
+    background-color: red;
+    content:"";
+    height:6px;
+    width: 21px;
+    position: absolute;
+    top: 58px;
+    left: 191px;
+}
+.courses span{
+    margin:2px 56px;
+    padding-top: 4px;
+    height: 50px;
+}
+.courses-details img:hover{
+    box-shadow: 0px 0px 4px 6px rgb(240, 194, 94);
+    color:rgba(255, 243, 240, 0.2);
+}
+.work-rate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    width:100%;
+    align-items: center;
+    line-height: 2.4;
+    position: relative;
+}
+.work-rate i{
+    font-size: 43px;
+    position: relative;
+}
+.projects{
+    width:330px;
+    height:50vh;
+    border:2px solid black;
+    display: inline-block;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 6px;
+    position: relative;
+}
+.main-container{
+    width:1000px;
+
+  
+}
+.rate-title{
+    text-align: center;
+    position: relative;
+}
+.rate-title h2::after{
+    background-color: red;
+    content: "";
+    height: 3px;
+    width: 61px;
+    position: absolute;
+    top: 61px;
+    left: 224px;
+}
+.rate-title h2{
+    font: 42px "Intro";
+    color: #000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+}
+.rate-title h4{
+    width: 100%;
+    font: 20px "Lato";
+    color: #000;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    position: relative;
+}
+.projects h3{
+     width:326px;
+     background-color: black;
+     color: white;
+     position: relative;
+
+}
+.project-details{
+    margin-top: 27px;
+    font: 20px "Lato";
+    color: #313131;
+    letter-spacing: 4px;
+    line-height: 2.4rem;
+    
+}
+.project-details span{
+    border-bottom: 0.4rem solid grey;
+    border-bottom-width:0.1rem;
+    padding-bottom: 9px;
+    position: relative;
+    
+}
+.project-details button{
+    margin-top: 17px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    padding: 9px 21px;
+    cursor:pointer;
+    position: relative;
+}
+.project-details button:hover{
+    box-shadow: 0px 0px 3px 6px rgb(252, 165, 165);
+}
+#image-insert1{
+    background-image: url(images/project1.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+.work-rate .projects::before{
+    background-color: #fff;
+    opacity: 0.6;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+#image-insert2{
+    background-image: url(images/project2.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+#image-insert3{
+    background-image: url(images/project3.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.achivement{
+    width: 100%;  
+    height: 40vh;
+    background-image: url(http://templates.seekviral.com/resume/images/parallax08.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 206px;
+}
+.achivement::before{
+    background: none repeat scroll 0 0 #000000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+
+}
+.achivement1 span{
+    position: relative;
+    color: white;
+    
+}
+.achivement1 i{
+        position: relative;
+        font-size: 33px;
+        color: white;
+        border-radius: 50%;
+        border:1px dotted white;
+        padding:25px 35px;
+}
+.achivement1 .number{
+    width: 100%;
+    text-align: center;
+    color: #e65650;
+    font: 40px "Intro";
+    letter-spacing: 2px;
+   padding: 2px 0px;;
+   line-height: 5rem;
+}
+.achivement1 .text{
+    font: 20px "Lato";
+    color: #fff;
+    letter-spacing: 4px;
+}
+.achivement1 i:hover{
+    box-shadow: 0px 0px 3px 6px rgb(238, 15, 15);
+    
+}
+.my-blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 242, 236);
+    height: 30vh;
+    width:100%;
+    color:rgb(10, 10, 10)
+}
+.blog-heading h2{
+    font: 42px "Intro";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+.blog-heading h4{
+    font: 20px "Lato";
+    letter-spacing: 1px;
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.blog-heading{
+    position: relative;
+}
+.blog-heading h4::before{
+    background-color: red;
+    content: "";
+    height: 2px;
+    width: 34px;
+    position: absolute;
+    top: 11px;
+    left: 96px;
+
+}
+.blog-content1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+
+}
+.blog-content1 img{
+    
+    height:40vh;
+    width:50%;
+}
+.blog-content1-text{
+    width:50%;
+    height: 40vh;
+}
+.blog-content1-text h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font: bold 26px "Lato";
+    color: #2c2c2c;
+    margin-left: 58px;
+
+}
+.blog-content1-text p{
+    font: 15px/30px "Lato";
+    color: #5a5a5a;
+    letter-spacing: 0.4px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 140px;
+}
+.blog-content1-text button{
+    padding:12px 27px;
+    border:1px solid black;
+    color: whitesmoke;
+    background-color: rgb(224, 87, 63);
+    cursor: pointer;
+    display: block;
+    margin-left: 60px;
+    text-align: center;
+    background: #d2534e;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.blog-content1-text i{
+    color: rgb(238, 122, 102);
+    font-size: 52px;
+    margin-left: 62px;
+    margin-top: 6px;
+
+}
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(http://templates.seekviral.com/resume/images/parallax09.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width:100%;
+    height: 30vh;
+
+}
+.search-bar h2{
+    color: whitesmoke;
+
+}
+.input-section{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 34px;
+}
+.input-section .mail-section{
+    font: 12px "Lato";
+    color: #FFF;
+    height: 50px;
+    width: 295px;
+    background: rgba(230, 86, 80, 0.15);
+    border: 2px solid #fff;
+    outline: none;
+    text-indent:20px;
+
+}
+.input-section button{
+    outline: none;
+    border: 2px solid #fff;
+    padding: 12px 12px;
+    background-color: rgb(243, 121, 99);
+    color: white;
+}
+.work-experience{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 160vh;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.work-experience::before{
+    background-color: red;
+    content: "";
+    height: 2px;
+    width: 34px;
+    position: absolute;
+    top: 91px;
+    left: 711px;
+}
+.work-experience h2{
+    font: 42px "Intro";
+    color: #000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.work-experience h4{
+    font: 20px "Lato";
+    color: #000;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    text-align: center;
+}
+.Experience{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:70%;
+    height: 40vh;
+    justify-content: center;
+}
+
+#exp-img1{
+    background-image: url(http://templates.seekviral.com/resume/images/experience01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#exp-img2{
+    background-image: url(http://templates.seekviral.com/resume/images/experience02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#exp-img3{
+    background-image: url(http://templates.seekviral.com/resume/images/experience03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Experience::before{
+    background: none repeat scroll 0 0 #000000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.Experience h2{
+    font: 33px "Intro";
+    color: #FFF;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    
+}
+.Experience h4{
+    font: 20px "Lato";
+    color: #e65650;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+.Experience p{
+    font: 15px/30px "Lato";
+    color: #fff;
+    letter-spacing: 0.3px;
+    text-align: center;
+    position: relative;
+    justify-content: space-around;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height: 90vh;
+    background-color:rgba(236, 233, 228, 0.589);
+    justify-content: space-around;
+    position: relative;
+}
+.footer-input{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-input input{
+    width: 450px;
+   border:none;
+   height: 42px;
+}
+.footer-input span{
+ background-color: white;
+ border :1px solid white;
+ padding: 4px 8px;
+}
+.footer-input span i{
+    margin-right: 2px;
+    font-size: 14px;
+}
+.Subject{
+    width:70%;
+    margin-top: 18px;
+    background-color: white;
+    
+}
+.Subject input{
+    width: 80%;
+    border: 1px solid white;
+    padding: 19px 8px;
+}
+.Subject i{
+    margin-left: 10px;
+}
+.text-area textarea{
+    width:70%;
+    height: 40vh;
+    border: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.send-button button{
+    background-color: transparent;
+    color: rgb(230, 131, 114);
+    border: 1px solid rgb(230, 131, 114);
+    padding: 14px 52px;
+    font-size: 22px;
+    margin-top: 13px;
+    cursor:pointer;
+}
+.send-button button:hover{
+    background-color: rgb(126, 119, 118);
+    box-shadow: 0px 0px 3px 5px rgb(138, 49, 49);
+}
+.footer h4::before{
+    background-color: red;
+    content: "";
+    height: 2px;
+    width: 34px;
+    position: absolute;
+    top: 74px;
+    left: 701px;
+}
+.footer-heading h2{ 
+    font: 42px "Intro";
+    color: #000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer-heading h4{
+    font: 20px "Lato";
+    color: #000;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+
